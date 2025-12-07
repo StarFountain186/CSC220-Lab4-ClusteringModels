@@ -75,11 +75,14 @@ jupyter notebook Clustering.ipynb
   - Two datasets created: original and scaled
   - Preprocessing visualizations and comparisons
 
-### Section 2: Baseline K-Means Model (Coming soon)
-- Multiple K values (2-12)
-- Elbow method
-- Silhouette analysis
-- Performance metrics
+### Section 2: Baseline K-Means Model ✓
+- Training with K values from 2 to 12
+- Elbow Method visualization (Inertia vs K)
+- Silhouette Score analysis
+- Optimal K selection based on metrics
+- Cluster visualizations (original and scaled data)
+- Detailed silhouette plot for optimal K
+- Comprehensive performance metrics and evaluation
 
 ### Section 3: Additional Clustering Models (Coming soon)
 - DBSCAN with parameter tuning
@@ -127,7 +130,7 @@ Models are compared using:
 - [x] Dataset download
 - [x] Section 1.1: Exploratory Data Analysis
 - [x] Section 1.2: Data Preprocessing
-- [ ] Section 2: Baseline K-Means
+- [x] Section 2: Baseline K-Means
 - [ ] Section 3: Additional clustering models
 - [ ] Section 4: Model comparison
 - [ ] Section 5: Hyperparameter tuning
