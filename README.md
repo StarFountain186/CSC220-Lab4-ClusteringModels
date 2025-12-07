@@ -84,11 +84,13 @@ jupyter notebook Clustering.ipynb
 - Detailed silhouette plot for optimal K
 - Comprehensive performance metrics and evaluation
 
-### Section 3: Additional Clustering Models (Coming soon)
-- DBSCAN with parameter tuning
-- K-Medoids optimization
-- Hierarchical clustering with dendrograms
-- Gaussian Mixture Models
+### Section 3: Additional Clustering Models ✓
+- **K-Medoids**: PAM algorithm with optimal K selection via silhouette analysis
+- **DBSCAN**: K-distance plot and parameter grid search (eps, min_samples)
+- **Agglomerative Clustering**: Dendrogram visualization and linkage method comparison
+- **Gaussian Mixture Models**: BIC/AIC-based model selection with covariance type optimization
+- Comprehensive metrics table comparing all 5 models
+- 2x3 grid visualization showing all clustering results
 
 ### Section 4: Model Comparison (Coming soon)
 - Comprehensive metrics table
@@ -131,7 +133,7 @@ Models are compared using:
 - [x] Section 1.1: Exploratory Data Analysis
 - [x] Section 1.2: Data Preprocessing
 - [x] Section 2: Baseline K-Means
-- [ ] Section 3: Additional clustering models
+- [x] Section 3: Additional clustering models
 - [ ] Section 4: Model comparison
 - [ ] Section 5: Hyperparameter tuning
 - [ ] Section 6: Cluster interpretation
