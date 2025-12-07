@@ -68,11 +68,12 @@ jupyter notebook Clustering.ipynb
   - Distribution visualizations
   - Pairwise scatter plots
 
-- **Section 1.2:** Data Preprocessing (Coming soon)
+- **Section 1.2:** Data Preprocessing ✓
+  - Feature selection (Annual Income & Spending Score)
   - Missing value handling
-  - Categorical encoding
-  - Feature scaling
-  - Train/test split
+  - Feature scaling with StandardScaler
+  - Two datasets created: original and scaled
+  - Preprocessing visualizations and comparisons
 
 ### Section 2: Baseline K-Means Model (Coming soon)
 - Multiple K values (2-12)
@@ -125,7 +126,7 @@ Models are compared using:
 - [x] Project setup
 - [x] Dataset download
 - [x] Section 1.1: Exploratory Data Analysis
-- [ ] Section 1.2: Data Preprocessing
+- [x] Section 1.2: Data Preprocessing
 - [ ] Section 2: Baseline K-Means
 - [ ] Section 3: Additional clustering models
 - [ ] Section 4: Model comparison
