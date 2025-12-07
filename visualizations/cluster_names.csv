@@ -1,0 +1,6 @@
+Cluster ID,Cluster Name,Size,Percentage,Avg Income,Avg Spending
+0,Medium Income Moderate Spenders,84,42.0%,$54.7k,49.4
+1,Low Income High Spenders,21,10.5%,$25.1k,80.0
+2,Low Income Low Spenders,21,10.5%,$25.1k,19.5
+3,High Income High Spenders,39,19.5%,$86.5k,82.1
+4,High Income Low Spenders,35,17.5%,$88.2k,17.1
