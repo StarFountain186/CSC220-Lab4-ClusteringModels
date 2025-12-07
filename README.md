@@ -102,9 +102,15 @@ jupyter notebook Clustering.ipynb
 - Learning curves for top 2 models (K-Medoids and K-Means)
 - Detailed recommendations and key findings
 
-### Section 5: Hyperparameter Tuning (Coming soon)
-- Optimization of best model
-- Parameter sensitivity analysis
+### Section 5: Hyperparameter Tuning ✓
+- Initial hyperparameters documentation for K-Medoids
+- Comprehensive grid search (54 parameter combinations tested)
+- Parameter space: n_clusters (3-8), init methods (3 types), max_iter (3 values)
+- Grid search visualizations (heatmaps, line plots, performance metrics)
+- Before vs after performance comparison with improvement metrics
+- Parameter sensitivity analysis (n_clusters, init method, max_iter)
+- Computational cost analysis and efficiency metrics
+- Optimal hyperparameters identified with detailed justification
 
 ### Section 6: Cluster Interpretation (Coming soon)
 - Detailed cluster profiles
@@ -140,7 +146,7 @@ Models are compared using:
 - [x] Section 2: Baseline K-Means
 - [x] Section 3: Additional clustering models
 - [x] Section 4: Model comparison
-- [ ] Section 5: Hyperparameter tuning
+- [x] Section 5: Hyperparameter tuning
 - [ ] Section 6: Cluster interpretation
 
 ## License
